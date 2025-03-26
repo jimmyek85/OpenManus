@@ -2,7 +2,9 @@
 	"recommendations": [
 		"tamasfe.even-better-toml",
 		"ms-python.black-formatter",
-		"ms-python.isort"
+		"ms-python.isort",
+		"donjayamanne.python-extension-pack",
+		"njpwerner.autodocstring"
 	],
 	"unwantedRecommendations": []
 }

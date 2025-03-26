@@ -11,7 +11,7 @@ English | [中文](README_zh.md) | [한국어](README_ko.md) | [日本語](READM
 
 # 👋 OpenManus
 
-Manus is incredible, but OpenManus can achieve any idea without an *Invite Code* 🛫!
+Manus is incredible, but OpenManus can achieve any idea without an _Invite Code_ 🛫!
 
 Our team members [@Xinbin Liang](https://github.com/mannaandpoem) and [@Jinyu Xiang](https://github.com/XiangJinyu) (core authors), along with [@Zhaoyang Yu](https://github.com/MoshiQAQ), [@Jiayi Zhang](https://github.com/didiforgithub), and [@Sirui Hong](https://github.com/stellaHSR), we are from [@MetaGPT](https://github.com/geekan/MetaGPT). The prototype is launched within 3 hours and we are keeping building!
 
@@ -82,6 +82,7 @@ uv pip install -r requirements.txt
 ```
 
 ### Browser Automation Tool (Optional)
+
 ```bash
 playwright install
 ```
@@ -125,6 +126,7 @@ python main.py
 Then input your idea via terminal!
 
 For MCP tool version, you can run:
+
 ```bash
 python run_mcp.py
 ```
@@ -144,6 +146,7 @@ Or contact @mannaandpoem via 📧email: mannaandpoem@gmail.com
 **Note**: Before submitting a pull request, please use the pre-commit tool to check your changes. Run `pre-commit run --all-files` to execute the checks.
 
 ## Community Group
+
 Join our networking group on Feishu and share your experience with other developers!
 
 <div align="center" style="display: flex; gap: 20px;">
@@ -164,6 +167,7 @@ Additionally, we are grateful to [AAAJ](https://github.com/metauto-ai/agent-as-a
 OpenManus is built by contributors from MetaGPT. Huge thanks to this agent community!
 
 ## Cite
+
 ```bibtex
 @misc{openmanus2025,
   author = {Xinbin Liang and Jinyu Xiang and Zhaoyang Yu and Jiayi Zhang and Sirui Hong},

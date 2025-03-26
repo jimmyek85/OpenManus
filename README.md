@@ -9,6 +9,16 @@ English | [中文](README_zh.md) | [한국어](README_ko.md) | [日本語](READM
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &ensp;
 [![Discord Follow](https://dcbadge.vercel.app/api/server/DYn29wFk9z?style=flat)](https://discord.gg/DYn29wFk9z)
 
+## Table of Contents
+
+- [Project Demo](#project-demo)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Quick Start](#quick-start)
+- [Contributing](#how-to-contribute)
+- [Community](#community-group)
+- [Acknowledgements](#acknowledgement)
+
 # 👋 OpenManus
 
 Manus is incredible, but OpenManus can achieve any idea without an _Invite Code_ 🛫!
@@ -28,6 +38,11 @@ We're also excited to introduce [OpenManus-RL](https://github.com/OpenManus/Open
 ## Installation
 
 We provide two installation methods. Method 2 (using uv) is recommended for faster installation and better dependency management.
+
+### Prerequisites
+
+- Git ([install guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
+- Python 3.12+ ([download](https://www.python.org/downloads/))
 
 ### Method 1: Using conda
 
@@ -66,13 +81,16 @@ git clone https://github.com/mannaandpoem/OpenManus.git
 cd OpenManus
 ```
 
-3. Create a new virtual environment and activate it:
+3. Create and activate virtual environment:
 
 ```bash
 uv venv --python 3.12
-source .venv/bin/activate  # On Unix/macOS
-# Or on Windows:
-# .venv\Scripts\activate
+
+# Linux/macOS:
+source .venv/bin/activate
+
+# Windows (PowerShell):
+.\.venv\Scripts\activate
 ```
 
 4. Install dependencies:
@@ -97,10 +115,17 @@ OpenManus requires configuration for the LLM APIs it uses. Follow these steps to
 cp config/config.example.toml config/config.toml
 ```
 
-2. Edit `config/config.toml` to add your API keys and customize settings:
+2. Edit `config/config.toml` to add your API keys:
+
+```bash
+# Get OpenAI API key: https://platform.openai.com/api-keys
+nano config/config.toml
+```
+
+Then customize settings:
 
 ```toml
-# Global LLM configuration
+# Supported providers: OpenAI, Anthropic, Groq, Ollama (local)
 [llm]
 model = "gpt-4o"
 base_url = "https://api.openai.com/v1"
@@ -117,7 +142,14 @@ api_key = "sk-..."  # Replace with your actual API key
 
 ## Quick Start
 
-One line for run OpenManus:
+First set up environment:
+
+```bash
+export PYTHONPATH="$PYTHONPATH:$(pwd)"  # Linux/macOS
+# Windows: $env:PYTHONPATH = "$env:PYTHONPATH;$(Get-Location)"
+```
+
+Main execution:
 
 ```bash
 python main.py
@@ -143,14 +175,40 @@ We welcome any friendly suggestions and helpful contributions! Just create issue
 
 Or contact @mannaandpoem via 📧email: mannaandpoem@gmail.com
 
-**Note**: Before submitting a pull request, please use the pre-commit tool to check your changes. Run `pre-commit run --all-files` to execute the checks.
+**Note**:
+
+1. Install pre-commit hooks:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+2. Before submitting PR:
+
+```bash
+pre-commit run --all-files
+pytest tests/  # Run test suite
+```
+
+## Troubleshooting
+
+### Common Issues
+
+- `ModuleNotFoundError`: Ensure PYTHONPATH is set correctly
+- Authentication errors: Verify API keys in config.toml
+- Browser automation failures: Run `playwright install`
 
 ## Community Group
 
 Join our networking group on Feishu and share your experience with other developers!
 
 <div align="center" style="display: flex; gap: 20px;">
-    <img src="assets/community_group.jpg" alt="OpenManus 交流群" width="300" />
+    <img src="assets/community_group.jpg"
+         alt="OpenManus Community QR Code - Scan to join discussion"
+         width="300"
+         style="border: 1px solid #ccc; padding: 10px;">
+    <p>Scan QR code to join community chat</p>
 </div>
 
 ## Star History

@@ -3,7 +3,9 @@
     "tamasfe.even-better-toml",
     "ms-python.black-formatter",
     "ms-python.isort",
-    "ms-vscode.cpptools"
+    "ms-vscode.cpptools",
+    "donjayamanne.python-extension-pack",
+    "njpwerner.autodocstring"
   ],
   "unwantedRecommendations": []
 }

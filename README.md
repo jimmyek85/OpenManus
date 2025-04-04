@@ -10,9 +10,20 @@ English | [中文](README_zh.md) | [한국어](README_ko.md) | [日本語](READM
 [![Discord Follow](https://dcbadge.vercel.app/api/server/DYn29wFk9z?style=flat)](https://discord.gg/DYn29wFk9z)
 [![Demo](https://img.shields.io/badge/Demo-Hugging%20Face-yellow)](https://huggingface.co/spaces/lyh-917/OpenManusDemo)
 
+## Table of Contents
+
+- [Project Demo](#project-demo)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Quick Start](#quick-start)
+- [Contributing](#how-to-contribute)
+- [Community](#community-group)
+- [Sponsors](#sponsors)
+- [Acknowledgements](#acknowledgement)
+
 # 👋 OpenManus
 
-Manus is incredible, but OpenManus can achieve any idea without an *Invite Code* 🛫!
+Manus is incredible, but OpenManus can achieve any idea without an _Invite Code_ 🛫!
 
 Our team members [@Xinbin Liang](https://github.com/mannaandpoem) and [@Jinyu Xiang](https://github.com/XiangJinyu) (core authors), along with [@Zhaoyang Yu](https://github.com/MoshiQAQ), [@Jiayi Zhang](https://github.com/didiforgithub), and [@Sirui Hong](https://github.com/stellaHSR), we are from [@MetaGPT](https://github.com/geekan/MetaGPT). The prototype is launched within 3 hours and we are keeping building!
 
@@ -24,9 +35,14 @@ We're also excited to introduce [OpenManus-RL](https://github.com/OpenManus/Open
 
 ## Project Demo
 
-<video src="https://private-user-images.githubusercontent.com/61239030/420168772-6dcfd0d2-9142-45d9-b74e-d10aa75073c6.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDEzMTgwNTksIm5iZiI6MTc0MTMxNzc1OSwicGF0aCI6Ii82MTIzOTAzMC80MjAxNjg3NzItNmRjZmQwZDItOTE0Mi00NWQ5LWI3NGUtZDEwYWE3NTA3M2M2Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzA3VDAzMjIzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdiZjFkNjlmYWNjMmEzOTliM2Y3M2VlYjgyNDRlZDJmOWE3NWZhZjE1MzhiZWY4YmQ3NjdkNTYwYTU5ZDA2MzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.UuHQCgWYkh0OQq9qsUWqGsUbhG3i9jcZDAMeHjLt5T4" data-canonical-src="https://private-user-images.githubusercontent.com/61239030/420168772-6dcfd0d2-9142-45d9-b74e-d10aa75073c6.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDEzMTgwNTksIm5iZiI6MTc0MTMxNzc1OSwicGF0aCI6Ii82MTIzOTAzMC80MjAxNjg3NzItNmRjZmQwZDItOTE0Mi00NWQ5LWI3NGUtZDEwYWE3NTA3M2M2Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzA3VDAzMjIzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdiZjFkNjlmYWNjMmEzOTliM2Y3M2VlYjgyNDRlZDJmOWE3NWZhZjE1MzhiZWY4YmQ3NjdkNTYwYTU5ZDA2MzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.UuHQCgWYkh0OQq9qsUWqGsUbhG3i9jcZDAMeHjLt5T4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px"></video>
+<video src="https://private-user-images.githubusercontent.com/61239030/420168772-6dcfd0d2-9142-45d9-b74e-d10aa75073c6.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDEzMTgwNTksIm5iZiI6MTc0MTMxNzc1OSwicGF0aCI6Ii82MTIzOTAzMC80MjAxNjg3NzItNmRjZmQwZDItOTE0Mi00NWQ5LWI3NGUtZDE0YWE3NTA3M2M2Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzA3VDAzMjIzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdiZjFkNjlmYWNjMmEzOTliM2Y3M2VlYjgyNDRlZDJmOWE3NWZhZjE1MzhiZWY4YmQ3NjdkNTYwYTU5ZDA2MzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.UuHQCgWYkh0OQq9qsUWqGsUbhG3i9jcZDAMeHjLt5T4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px"></video>
 
 ## Installation
+
+### Prerequisites
+
+- Git ([install guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
+- Python 3.12+ ([download](https://www.python.org/downloads/))
 
 We provide two installation methods. Method 2 (using uv) is recommended for faster installation and better dependency management.
 
@@ -67,13 +83,16 @@ git clone https://github.com/mannaandpoem/OpenManus.git
 cd OpenManus
 ```
 
-3. Create a new virtual environment and activate it:
+3. Create and activate virtual environment:
 
 ```bash
 uv venv --python 3.12
-source .venv/bin/activate  # On Unix/macOS
-# Or on Windows:
-# .venv\Scripts\activate
+
+# Linux/macOS:
+source .venv/bin/activate
+
+# Windows (PowerShell):
+.\.venv\Scripts\activate
 ```
 
 4. Install dependencies:
@@ -83,6 +102,7 @@ uv pip install -r requirements.txt
 ```
 
 ### Browser Automation Tool (Optional)
+
 ```bash
 playwright install
 ```
@@ -97,10 +117,17 @@ OpenManus requires configuration for the LLM APIs it uses. Follow these steps to
 cp config/config.example.toml config/config.toml
 ```
 
-2. Edit `config/config.toml` to add your API keys and customize settings:
+2. Edit `config/config.toml` to add your API keys:
+
+```bash
+# Get OpenAI API key: https://platform.openai.com/api-keys
+nano config/config.toml
+```
+
+Then customize settings:
 
 ```toml
-# Global LLM configuration
+# Supported providers: OpenAI, Anthropic, Groq, Ollama (local)
 [llm]
 model = "gpt-4o"
 base_url = "https://api.openai.com/v1"
@@ -117,7 +144,14 @@ api_key = "sk-..."  # Replace with your actual API key
 
 ## Quick Start
 
-One line for run OpenManus:
+First set up environment:
+
+```bash
+export PYTHONPATH="$PYTHONPATH:$(pwd)"  # Linux/macOS
+# Windows: $env:PYTHONPATH = "$env:PYTHONPATH;$(Get-Location)"
+```
+
+Main execution:
 
 ```bash
 python main.py
@@ -126,6 +160,7 @@ python main.py
 Then input your idea via terminal!
 
 For MCP tool version, you can run:
+
 ```bash
 python run_mcp.py
 ```
@@ -142,13 +177,40 @@ We welcome any friendly suggestions and helpful contributions! Just create issue
 
 Or contact @mannaandpoem via 📧email: mannaandpoem@gmail.com
 
-**Note**: Before submitting a pull request, please use the pre-commit tool to check your changes. Run `pre-commit run --all-files` to execute the checks.
+**Note**:
+
+1. Install pre-commit hooks:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+2. Before submitting PR:
+
+```bash
+pre-commit run --all-files
+pytest tests/  # Run test suite
+```
+
+## Troubleshooting
+
+### Common Issues
+
+- `ModuleNotFoundError`: Ensure PYTHONPATH is set correctly
+- Authentication errors: Verify API keys in config.toml
+- Browser automation failures: Run `playwright install`
 
 ## Community Group
+
 Join our networking group on Feishu and share your experience with other developers!
 
 <div align="center" style="display: flex; gap: 20px;">
-    <img src="assets/community_group.jpg" alt="OpenManus 交流群" width="300" />
+    <img src="assets/community_group.jpg"
+         alt="OpenManus Community QR Code - Scan to join discussion"
+         width="300"
+         style="border: 1px solid #ccc; padding: 10px;">
+    <p>Scan QR code to join community chat</p>
 </div>
 
 ## Star History
@@ -158,7 +220,6 @@ Join our networking group on Feishu and share your experience with other develop
 ## Sponsors
 Thanks to [PPIO](https://ppinfra.com/user/register?invited_by=OCPKCN&utm_source=github_openmanus&utm_medium=github_readme&utm_campaign=link) for computing source support.
 > PPIO: The most affordable and easily-integrated MaaS and GPU cloud solution.
-
 
 ## Acknowledgement
 
@@ -172,6 +233,7 @@ We also thank stepfun(阶跃星辰) for supporting our Hugging Face demo space.
 OpenManus is built by contributors from MetaGPT. Huge thanks to this agent community!
 
 ## Cite
+
 ```bibtex
 @misc{openmanus2025,
   author = {Xinbin Liang and Jinyu Xiang and Zhaoyang Yu and Jiayi Zhang and Sirui Hong},
@@ -181,4 +243,3 @@ OpenManus is built by contributors from MetaGPT. Huge thanks to this agent commu
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/mannaandpoem/OpenManus}},
 }
-```

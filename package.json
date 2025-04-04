@@ -1,0 +1,10 @@
+{
+  "name": "openmanus",
+  "version": "1.0.0",
+  "description": "OpenManus application",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  }
+}
